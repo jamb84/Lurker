@@ -1,5 +1,5 @@
 {
-    "name"        : "henrikbjorn/lurker",
+    "name"        : "jamb84/lurker",
     "type"        : "library",
     "description" : "Resource Watcher.",
     "keywords"    : ["resource", "filesystem", "watching"],
@@ -21,9 +21,9 @@
     ],
 
     "require" : {
-        "php"                      : ">=5.3.3",
-        "symfony/config"           : "~2.2",
-        "symfony/event-dispatcher" : "~2.2"
+        "php"                      : ">=7.4",
+        "symfony/config"           : ">=5.0",
+        "symfony/event-dispatcher" : ">=5.0"
     },
 
     "autoload" : {
